@@ -1,0 +1,81 @@
+img {
+    max-width: 100%;
+  }  
+  
+  h1, h2, h3{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: lightseagreen;
+    font-size: 24px;
+    font-weight: bold;
+    text-align:left;
+  }
+
+  h3{  
+    text-align: center;
+  }
+  
+  p{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: gray;
+    text-align:left;
+  }
+  
+  .navbar{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    right: 30px;
+  }
+  
+  .navbar a{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color:white;
+  }
+  
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width: 100%;
+    min-height:100%;
+    background-color: lightgray;
+   }  
+   
+  .latitude{
+    background-color: white;
+  }
+  
+  .latitude a{
+    width: 110px;
+    background: lightseagreen;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 14px;
+    margin: 0px 0px 0px 40px;
+  }
+  
+  .topcolor{
+    background-color: white;
+  }
+  
+  .bodycolor{
+    background-color: white;
+  }
+  
+  .table{
+    text-align:center;
+  }
+  
+  .foot {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width:100%;
+    bottom:0;
+    background-color: gray;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color:lightseagreen;    
+    color: white;
+    text-align: center;    
+    padding: 5px;
+  }
