@@ -20,13 +20,7 @@ img {
     text-align:left;
   }
   
-  .navbar{
-    font-family: Georgia, "Times New Roman", Times, serif;
-    position: absolute;
-    right: 30px;
-  }
-  
-  .navbar a{
+  .nav-item dropdown a{
     font-family: Georgia, "Times New Roman", Times, serif;
     background-color:white;
   }
@@ -38,11 +32,8 @@ img {
     background-color: lightgray;
    }  
    
-  .latitude{
+  .navbar .navbar-brand{
     background-color: white;
-  }
-  
-  .latitude a{
     width: 110px;
     background: lightseagreen;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -51,14 +42,15 @@ img {
     color: white;
     text-align: center;
     display: block;
-    padding: 14px;
+    padding: 10px;
     margin: 0px 0px 0px 40px;
   }
-  
-  .topcolor{
-    background-color: white;
+
+  .navbar {
+    margin:0 !important;
+    padding: 0px !important;
   }
-  
+
   .bodycolor{
     background-color: white;
   }
@@ -78,4 +70,8 @@ img {
     color: white;
     text-align: center;    
     padding: 5px;
+  }
+
+  .brdr {
+    border: 3px solid lightseagreen;
   }
