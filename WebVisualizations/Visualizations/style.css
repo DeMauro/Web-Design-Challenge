@@ -75,3 +75,7 @@ img {
   .brdr {
     border: 3px solid lightseagreen;
   }
+
+  .dropdown-menu {
+    padding: 5px;
+  }
